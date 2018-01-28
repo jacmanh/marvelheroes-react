@@ -1,0 +1,28 @@
+
+body {
+    background-color: #e5e5e5;
+    margin: 0;
+}
+
+.img {
+    display: block;
+}
+
+.img--responsive {
+    max-width: 100%;
+}
+
+.link {
+    border-bottom: 2px solid #ff9c00;
+    color: #000;
+    text-decoration: none;
+    transition: background-color 400ms;
+
+    &:hover {
+        background-color: #ff9c00;
+    }
+}
+
+.page {
+    margin: 50px;
+}

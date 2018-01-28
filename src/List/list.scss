@@ -1,0 +1,21 @@
+
+.list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.list--character {
+    display: flex;
+    flex-flow: row wrap;
+    box-sizing: border-box;
+    justify-content: center;
+    margin: 30px;
+}
+
+.list__item {
+    border: 1px solid #efefef;
+    border-left: 0;
+    border-right: 0;
+    padding: 5px;
+}

@@ -1,0 +1,40 @@
+
+$borderColor: #e6e6e6;
+
+.character-card {
+    background-color: #fff;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 10px;
+    position: relative;
+    transition: background-color 400ms;
+
+    .list--character & {
+        margin: 1%;
+        max-width: 48%;
+
+        @media screen and (min-width: 768px) {
+            max-width: 18%;
+        }
+    }
+
+    &:hover {
+        background-color: #fafafa;
+    }
+}
+
+.character-card__name {
+    font-size: 16px;
+    font-weight: 600;
+    padding: 20px 5px;
+}
+
+.character-card__image {
+    max-height: 200px;
+    overflow: hidden;
+}
+
+.character-card__link {
+    color: #000;
+    text-decoration: none;
+}
